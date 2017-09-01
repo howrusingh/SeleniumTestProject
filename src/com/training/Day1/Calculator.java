@@ -15,6 +15,9 @@ public class Calculator {
 
 	WebDriver driver;
 	
+	
+	
+	//test method
 	@BeforeMethod
 	public void opensite(){
 		System.setProperty("webdriver.gecko.driver", "D:\\VidyaRecent\\GridDemo\\geckodriver.exe");
