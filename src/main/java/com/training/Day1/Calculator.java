@@ -20,7 +20,7 @@ public class Calculator {
 	//test method
 	@BeforeMethod
 	public void opensite(){
-		System.setProperty("webdriver.gecko.driver", "D:\\VidyaRecent\\GridDemo\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "C:\\Selenium\\geckodriver-v0.16.1-win64\\geckodriver.exe");
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("http://www.calculator.net/");
