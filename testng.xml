@@ -3,7 +3,8 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name=".Calculator"/>
+      <class name="com.training.Day1.Calculator"/>
+      <class name="com.training.Day1.TestNGTestCaseThree"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
