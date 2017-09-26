@@ -46,8 +46,8 @@ public class Calculator {
 		Thread.sleep(5000);
 		String mul = driver.findElement(By.xpath(".//div[@id='sciOutPut']")).getText();
 		
-		//Assert.assertEquals("11" ,mul);
-		Assert.assertEquals(mul, "12.");
+		//Assert.assertEquals("12" ,mul);
+		Assert.assertEquals(mul, "11.");
 	}
 	
 	
